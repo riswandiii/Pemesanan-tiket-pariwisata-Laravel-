@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    background-image: url('/img/losari.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 250px;
+}
+
+#navbar {
+    background-color: black;
+    opacity: 0.9;
+}
+
+nav ul li {
+    font-weight: bold;
+}
+
+nav ul #li:hover {
+    background: blue;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+nav ul li ul {
+    font-weight: bold;
+}
+
+
